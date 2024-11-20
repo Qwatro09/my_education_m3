@@ -26,7 +26,6 @@ def is_contains(string, list_to_search):
     else:
         return False
 
-
 print(string_info('Capybara'))
 print(string_info('Armageddon'))
 print(string_info('Hello world'))
