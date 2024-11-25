@@ -7,7 +7,6 @@ def get_multiplied_digits(number):
         return number
     else:
         number = first * get_multiplied_digits(int(str_number[1:]))
-        # print(first, type(first))
         return number
 
 
